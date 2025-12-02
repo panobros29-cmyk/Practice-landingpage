@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+a {
+    color:#e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.text{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-text{
+font-size: 18px;
+color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {   
+    border-color: #3882f6;
+    border-width: 12px;
+    border-style: solid;
+    border-radius: 12px;
+    width: 300px;
+    height: 300px;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+    padding: 100px;
+}
+
+.god {
+    font-weight: bold;
+}

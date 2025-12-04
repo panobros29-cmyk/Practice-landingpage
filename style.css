@@ -13,7 +13,7 @@ html, body {
     color: #F9FAF8;
     font-size: 24px;
     justify-content: space-between;
-    padding: 16px;
+    padding: 5px 15vh;
 }
 
 a {
@@ -26,6 +26,11 @@ a {
 .text{
     background-color: #1f2937;
     color: #F9FAF8;
+    padding: 15vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
 }
 
 .main-text {
@@ -33,9 +38,22 @@ a {
     font-weight: 900;
 }
 
+.main-sub-text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    text-wrap: wrap;
+}
+
 .sub-text {
 font-size: 18px;
 color: #e5e7eb;
+}
+
+.image {
+    width: auto;
+    min-width: 150px;
+    max-height: 198px;
 }
 
 button{
@@ -64,7 +82,7 @@ button{
     flex: 1;
 }
 
-.card {   
+.card, .image{   
     border-color: #3882f6;
     border-width: 4px;
     border-style: solid;
@@ -102,4 +120,6 @@ button{
 .footer {
     position: sticky;
     top: 100vh;
+    justify-content: center;
+    font-size: 18px;
 }
